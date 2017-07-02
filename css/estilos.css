@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 65px;
+  background-color: #FF4081; 
+  position: fixed;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #FF80AB;
+}
+.publicidad{
+  width: 100%;
+  height: 200px;
+  background-color: #FF80AB;
+}
+.publicidad2{
+  width: 20%;
+  height: 2400px;
+  background-color: #FF80AB;
+  flex-direction: row;
+  float: left;
+}
+.texto{
+  width: 100%;
+  background-color: #FF80AB;
+  height: 2400px;
+}
+.ancho{
+  width: 90%;
+  height: 65px;
+  background-color: #FF4081;
+  margin: auto;
+}
+.logo{
+  width: 30%;
+  height: 65px;
+  background-color: #FF4081;
+  float: left;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+nav{
+  width: 45%;
+  height: 65px;
+  background-color: #FF4081;
+  float: left;
+  text-align: center;
+  padding-top: 1px;
+  box-sizing: border-box;
+}
+nav ul{
+  list-style: none;
+}
+ul > li{
+  position: relative;
+  display: inline-block;
+}
+ul > li > a{
+  display: block;
+  font-family: lobster;
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  padding: 19px 20px;
+}
+nav ul li a:hover{
+  color: #444;
+}
+.sub{
+  position: absolute;
+  background-color: #FF4081;
+  width: 100%;
+  display: none;
+}
+.sub li a{
+  display: block;
+  background-color: #FF4081;
+  padding: 15px;
+}
+nav li:hover .sub{
+  display: block;
+}
+.logo p a{
+  color: #fff;
+  font-size: 30px;
+  text-decoration:none;
+  font-family: lobster;
+}
+.buscador{
+  width: 25%;
+  height: 65px;
+  background-color: #FF4081;
+  float: left;
+  text-align: center;
+  padding-top: 1px;
+  box-sizing: border-box;
+}
+form{
+  width: 200px;
+  margin: auto;
+  padding: 3px;
+}
+fieldset{
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 0 0 0 40px;
+}
+input, button{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  padding: 0;
+}
+input{
+  color: #666;
+  border: none;
+}
+button{
+  font-size: 1.4em;
+  width: 50px;
+  border: none;
+  background: #333333;
+  border-radius: 5px;
+}
+.fa-search{
+  color: #bbb
+}
+input:focus{
+  outline: none;
+}
+.banner{
+  width: 100%;
+  height: 150px;
+  background-color: #424242;
+}
+.contenedor{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.columnas{
+  width: 20%;
+  float: left;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.columnas img{
+  width: 100%;
+}
+.columnas h4{
+  text-transform: uppercase;
+  font-size: 23px;
+  font-family: amaranth;
+  text-align: center;
+}
+.texto h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: amaranth;
+  text-align: center;
+}
+.columnas p{
+  font-size: 15px;
+  font-family: amaranth;
+  text-align: justify;
+  color: #444;
+}
+.redes{
+  width: 50%;
+  height: 150px;
+  margin: auto;
+  background-color: #424242;
+}
+.redes p{
+  text-align: center;
+  font-size: 20px;
+  font-family: amaranth;
+  color: #fff;
+}
+#facebook .fa{
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 130px;
+  color: #fff;
+}
+#facebook .fa:hover{
+  color: #3b5998;
+}
+#twitter .fa{
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 130px;
+  color: #fff;
+}
+#twitter .fa:hover{
+  color: #1dcaff;
+}
+#whatsapp .fa{
+  padding-top: 20px;
+  text-decoration: none;
+  padding-left: 150px;
+  color: #fff;
+}
+#whatsapp .fa:hover{
+  color: #4dc247;
+}
+@font-face{
+  font-family: lobster;
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+@font-face{
+  font-family: amaranth;
+  src: url(../fonts/Amaranth-Regular.ttf);
+}
+
