@@ -1,0 +1,7 @@
+{
+  "name": "Patada-FE",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
